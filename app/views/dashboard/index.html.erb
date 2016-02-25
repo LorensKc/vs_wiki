@@ -1,0 +1,19 @@
+<div class="jumbotron">
+  <div class="container">
+    <h1>Welcome!</h1>
+    <% if current_user %>
+      Hello <%= current_user.email %>
+      <div >
+        Это тестовый сайт  Wiki по пректу VisuvService, для лучшего ориентирования по проекту
+      </div>
+    <% else %>
+    <p>Sign up to get started.</p>
+    <p>
+      <%= link_to new_user_path, class: 'btn btn-primary btn-lg' do %>
+        Sign Up &raquo;
+      <% end %>
+    </p>
+
+    <% end %>
+      </div>
+</div>
