@@ -1,4 +1,16 @@
 
-//= bootstrap-markdown-editor/dist/css/bootstrap-markdown-editor
+//= require bootstrap-markdown-editor/dist/css/bootstrap-markdown-editor
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+.hidden {
+  display: none;
+}
+
+td, th {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.list_actions {
+  text-align: center;
+}

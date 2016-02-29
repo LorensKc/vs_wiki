@@ -1,6 +1,6 @@
 <html>
 <head>
-  
+
 </head>
 <body>
   <p id="notice"><%= notice %></p>
@@ -19,7 +19,7 @@
 
     <tbody>
       <% @posts.each do |post| %>
-        <tr>
+        <tr class="list_actions">
           <td><%= post.name %></td>
           <td><%= post.title %></td>
           <td><%= post.content %></td>
